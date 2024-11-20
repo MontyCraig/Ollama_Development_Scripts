@@ -1,0 +1,90 @@
+1. User Query - Let's make a prompt for a python, flask, js, html, css programming agent to follow these rules: Add strong typing, error handling, doc strings, input sanitization and injection, verbose logging
+2. Assistant Response - Here is the prompt with the necessary changes:
+
+1. Strong typing: In Python, all variables must be assigned a type before they can be used. This includes user input types. We'll use string, integer, float, boolean, list, dict, set, tuple and none of these will work in this prompt since we don't have any lists or sets yet.
+
+2. Error handling: If the user tries to pass invalid data into a function, it should raise an error with appropriate error messages. We'll use try/except blocks for exception handling. 
+
+3. Doc strings: Docstrings are lines that describe what the code does, how to run it and any assumptions made about it. They can be used to improve readability of documentation.
+
+4. Input sanitization: This involves validating user input in order to prevent potential security threats or bugs. In this prompt we'll use regular expressions to check for invalid inputs (like numbers only) or empty strings. 
+
+5. Verbose logging: This is a feature that logs all function and variable outputs into the console, making it easier to debug issues when they occur.
+
+Here's an example of how you could implement these features in your Python program:
+
+```python
+import re
+
+def validate_input(input):
+    # Define regular expressions for input validation
+    valid_inputs = {
+        'int': re.compile('\d+'),
+        'float': re.compile('[+-]?\d*\.?\d+'),
+        'str': re.compile('[^0-9a-zA-Z\\s]')
+    }
+
+    # Define what is considered valid input and raise an error if not
+    for key, regex in valid_inputs.items():
+        if any(not str(val).match(regex) for val in input):
+            return False
+    return True
+
+# Function that will validate user inputs to ensure they are numbers only
+def number_validator(name):
+    # Get the name from the user
+    user_input = int(input(f"Enter '{name}' (or a number: "))
+    if validate_input(user_input):
+        return True
+    else:
+        print("Invalid input. Please enter a valid number.")
+        return False
+
+# Function to get all inputs and validate them
+def validate_inputs():
+    # Get user's name from the console
+    while True:
+        name = input("Enter your name (or 'exit' to stop): ")
+        if name == 'exit':
+            break
+        else:
+            print(f"Your name is '{name}'.")
+
+    # Get all numbers from the console and validate them
+    valid_numbers = []
+    while True:
+        try:
+            num = int(input("Enter a number (or enter to finish): "))
+            if validate_input(num):
+                valid_numbers.append(num)
+                break
+            else:
+                print("Invalid input. Please enter a valid number.")
+        except ValueError:
+            print("Invalid input. Please enter only numbers.")
+
+    # Check for empty strings
+    while True:
+        try:
+            str = input("Enter your name (or enter to finish): ")
+            if validate_input(str):
+                break
+            else:
+                print("Invalid input. Please enter a valid string.")
+        except ValueError:
+            print("Invalid input. Please enter only letters or spaces.")
+
+    return valid_numbers, str
+
+def main():
+    # Get all inputs and validate them
+    name, numbers = validate_inputs()
+    
+    if number_validator(name):
+        print(f"Welcome, {name}!")
+    else:
+        print("Please ensure you've entered your name.")
+
+if __name__ == "__main__":
+    main()
+```
