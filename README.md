@@ -111,3 +111,7 @@ chat_bot/
 Monty Craig - [Your Contact Info]
 
 Project Link: [https://github.com/MontyCraig/Ollama_Presentation](https://github.com/MontyCraig/Ollama_Presentation)
+
+![CI](https://github.com/MontyCraig/Ollama_Presentation/workflows/CI/badge.svg)
+![Documentation](https://github.com/MontyCraig/Ollama_Presentation/workflows/Documentation/badge.svg)
+[![codecov](https://codecov.io/gh/MontyCraig/Ollama_Presentation/branch/main/graph/badge.svg)](https://codecov.io/gh/MontyCraig/Ollama_Presentation)
