@@ -1,0 +1,12 @@
+{
+  "github-actions.workflows.pinned.workflows": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/docs.yml",
+    ".github/workflows/cleanup.yml"
+  ],
+  "github-actions.workflows.pinned.refresh.enabled": true,
+  "github-actions.workflows.pinned.refresh.interval": 60,
+  "github-actions.remote-name": "origin",
+  "github-actions.step-security.enabled": true,
+  "github-actions.step-security.severity": "high"
+} 
