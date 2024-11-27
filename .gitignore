@@ -4,6 +4,7 @@ venv/
 ENV/
 env/
 .env
+.python-version
 
 # IDE and Editor files
 .vscode/
@@ -32,6 +33,9 @@ task_lists/
 !task_lists/.gitkeep
 reports/
 !reports/.gitkeep
+
+# Reference and example folders
+ollama-python/
 
 # Generated files and folders
 **/output_folders/
