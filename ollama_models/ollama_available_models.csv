@@ -72,3 +72,47 @@ MODEL_NUMBER,NAME,ID,SIZE,MODIFIED,MODEL_TYPE,DESCRIPTION,LINKS
 72,phi3:latest,a2c89ceaed85,2.3 GB,2 months ago,Large Language Model (LLM),Phi-3 is a family of lightweight 3B (Mini) and 14B (Medium) state-of-the-art open models by Microsoft,https://ollama.ai/library
 73,llama3:latest,365c0bd3c000,4.7 GB,2 months ago,Large Language Model (LLM),Llama3 is designed for advanced natural language understanding tasks,https://ollama.ai/library
 74,nuextract:latest,233ce1dee972,2.2 GB,12 minutes ago,Information Extraction,A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction,https://ollama.ai/library
+marco-o1:latest                                  007603b83a96    4.7 GB    2 days ago      
+thirdeyeai/qwen2.5-coder-uncensored-7b:latest    3f0881d9451b    15 GB     3 days ago      
+Supa-AI/ministral-8b-instruct-2410:q3_k_l        1d551a0104f1    4.3 GB    3 days ago      
+tulu3:latest                                     3e7bbda0122e    4.9 GB    4 days ago      
+qwen2.5-coder:3b                                 e7149271c296    1.9 GB    2 weeks ago     
+qwen2.5-coder:0.5b                               d392ed348d5b    531 MB    2 weeks ago     
+opencoder:latest                                 c320df6c224d    4.7 GB    2 weeks ago     
+opencoder:1.5b                                   a01a892d01bd    1.4 GB    2 weeks ago     
+llama3.2-vision:latest                           38107a0cd119    7.9 GB    2 weeks ago     
+granite3-guardian:8b                             de8070afbfa2    5.8 GB    3 weeks ago     
+granite3-guardian:latest                         c3566cb68416    2.7 GB    3 weeks ago     
+qwen2.5-coder:1.5b                               7088ac567b1e    986 MB    3 weeks ago     
+qwen2.5-coder:7b                                 4a26c19c376e    4.7 GB    3 weeks ago     
+aya-expanse:latest                               65f986688a01    5.1 GB    3 weeks ago     
+smollm2:135m                                     79d4ee4bc397    270 MB    3 weeks ago     
+smollm2:360m                                     2916c50d605d    725 MB    3 weeks ago     
+smollm2:latest                                   cef4a1e09247    1.8 GB    3 weeks ago     
+granite3-moe:1b                                  881c120886f6    821 MB    4 weeks ago     
+granite3-moe:latest                              5d8ebcfcdb80    2.1 GB    4 weeks ago     
+granite3-dense:8b                                b5e91128f3ef    4.9 GB    4 weeks ago     
+granite3-dense:latest                            a9c7deef7ab8    1.6 GB    4 weeks ago     
+nemotron:latest                                  2262f047a28a    42 GB     5 weeks ago     
+nemotron-mini:latest                             ed76ab18784f    2.7 GB    6 weeks ago     
+aerok/acge_text_embedding:latest                 aad6bf81d2ce    653 MB    2 months ago    
+yuki_ho/bce-embedding:fp16                       9e9715cd64d6    562 MB    2 months ago    
+llama3.2:1b                                      baf6a787fdff    1.3 GB    2 months ago    
+llama3.2:3b                                      a80c4f17acd5    2.0 GB    2 months ago    
+qwen2.5:latest                                   845dbda0ea48    4.7 GB    2 months ago    
+qwen2.5-coder:latest                             87098ba7390d    4.7 GB    2 months ago    
+jmorgan/bespoke-minicheck:latest                 327db8ce8949    4.5 GB    2 months ago    
+bespoke-minicheck:latest                         66607904c165    4.7 GB    2 months ago    
+reader-lm:latest                                 33da2b9e0afe    934 MB    2 months ago    
+minicpm-v:latest                                 1862d7d5fee5    5.5 GB    2 months ago    
+yi-coder:latest                                  0eed9e7baf59    5.0 GB    2 months ago    
+qwen2-math:72b                                   9cf426342464    41 GB     2 months ago    
+qwen2-math:1.5b                                  a4fdda0c6cc5    934 MB    2 months ago    
+qwen2-math:latest                                28cc3a337734    4.4 GB    2 months ago    
+hermes3:latest                                   b5c6c7cb379d    4.7 GB    3 months ago    
+phi3.5:latest                                    3b387c8dd9b7    2.2 GB    3 months ago    
+smollm:1.7b                                      762cd970428d    990 MB    3 months ago    
+smollm:360m                                      00d7aeb8c943    229 MB    3 months ago    
+smollm:135m                                      8e3a92041f76    91 MB     3 months ago    
+phi3:medium-128k                                 cf611a26b048    7.9 GB    3 months ago    
+nuextract:latest                                 233ce1dee972    2.2 GB    3 months ago

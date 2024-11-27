@@ -1,0 +1,899 @@
+{
+  "models": [
+    {
+      "name": "qwen2.5-coder",
+      "description": "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing. The 32B model has competitive performance with OpenAI's GPT-4o.",
+      "capabilities": [
+        "tools",
+        "code generation",
+        "code reasoning",
+        "code repair",
+        "multi-language"
+      ],
+      "model_sizes": ["0.5b", "1.5b", "3b", "7b", "14b", "32b"],
+      "pulls": 535300,
+      "tags": 196,
+      "last_updated": "10 days ago",
+      "architecture": "qwen2",
+      "parameters": {
+        "7b": "7.62B"
+      },
+      "quantization": "Q4_K_M",
+      "size": "4.7GB",
+      "license": "Apache-2.0",
+      "system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "benchmarks": {
+        "code_generation": {
+          "evalplus": "SOTA for open-source",
+          "livecodebench": "SOTA for open-source", 
+          "bigcodebench": "SOTA for open-source"
+        },
+        "code_repair": {
+          "aider": 73.7,
+          "mdeval": 75.2
+        },
+        "multi_language": {
+          "mceval": 65.9,
+          "supported_languages": "40+"
+        }
+      },
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "llama3.2",
+      "description": "The Meta Llama 3.2 collection of multilingual large language models (LLMs) is a collection of pretrained and instruction-tuned generative models optimized for multilingual dialogue use cases, including agentic retrieval and summarization tasks. They outperform many of the available open source and closed chat models on common industry benchmarks.",
+      "capabilities": [
+        "tools",
+        "instruction following",
+        "summarization", 
+        "prompt rewriting",
+        "multilingual",
+        "knowledge retrieval",
+        "personal information management"
+      ],
+      "model_sizes": {
+        "default": "3b",
+        "available": ["1b", "3b"]
+      },
+      "pulls": 3300000,
+      "tags": 63,
+      "last_updated": "8 weeks ago",
+      "architecture": "llama",
+      "parameters": {
+        "3b": "3.21B"
+      },
+      "quantization": "Q4_K_M",
+      "size": "2.0GB",
+      "license": "Llama 3.2 Community License",
+      "languages": {
+        "officially_supported": [
+          "English",
+          "German", 
+          "French",
+          "Italian",
+          "Portuguese",
+          "Hindi",
+          "Spanish",
+          "Thai"
+        ],
+        "note": "Trained on broader collection of languages"
+      },
+      "benchmarks": {
+        "comparison": {
+          "outperforms": [
+            "Gemma 2 2.6B",
+            "Phi 3.5-mini"
+          ]
+        }
+      }
+    },
+    {
+      "name": "llama3.1",
+      "description": "Llama 3.1 is a new state-of-the-art model from Meta available in 8B, 70B and 405B parameter sizes. The models feature multilingual capabilities, 128K context length, state-of-the-art tool use, and strong reasoning capabilities. The 405B model rivals top AI models in general knowledge, steerability, math, tool use, and multilingual translation.",
+      "capabilities": [
+        "tools",
+        "multilingual",
+        "long context",
+        "reasoning",
+        "math",
+        "coding",
+        "tool use",
+        "summarization"
+      ],
+      "model_sizes": {
+        "default": "8b",
+        "available": ["8b", "70b", "405b"]
+      },
+      "pulls": 10700000,
+      "tags": 93,
+      "last_updated": "2 months ago",
+      "architecture": "llama",
+      "parameters": {
+        "8b": "8.03B"
+      },
+      "quantization": "Q4_0",
+      "size": "4.7GB",
+      "license": "LLAMA 3.1 COMMUNITY LICENSE",
+      "context_length": 128000,
+      "benchmarks": {
+        "comparison": {
+          "competitive_with": [
+            "GPT-4",
+            "GPT-4o", 
+            "Claude 3.5 Sonnet"
+          ]
+        },
+        "evaluation": "150+ benchmark datasets across multiple languages"
+      }
+    },
+    {
+      "name": "mistral",
+      "description": "Mistral is a 7B parameter model that outperforms Llama 2 13B on all benchmarks, Llama 1 34B on many benchmarks, and approaches CodeLlama 7B performance on code while remaining strong at English tasks. The latest v0.3 version adds function calling support.",
+      "capabilities": [
+        "tools",
+        "function calling",
+        "instruction following",
+        "text completion",
+        "code generation"
+      ],
+      "model_sizes": ["7b"],
+      "pulls": 5700000,
+      "tags": 84,
+      "last_updated": "4 months ago",
+      "architecture": "llama",
+      "parameters": {
+        "7b": "7.25B"
+      },
+      "quantization": "Q4_0",
+      "size": "4.1GB",
+      "license": "Apache-2.0",
+      "versions": {
+        "latest": "v0.3",
+        "all": [
+          {
+            "tag": "v0.3",
+            "date": "05/22/2024",
+            "notes": "Added function calling support"
+          },
+          {
+            "tag": "v0.2", 
+            "date": "03/23/2024",
+            "notes": "Minor release"
+          },
+          {
+            "tag": "v0.1",
+            "date": "09/27/2023", 
+            "notes": "Initial release"
+          }
+        ]
+      },
+      "variants": [
+        "instruct",
+        "text"
+      ],
+      "references": {
+        "huggingface": true,
+        "blog_post": true
+      }
+    },
+    {
+      "name": "qwen2",
+      "description": "Qwen2 is a new series of large language models from Alibaba group trained on data in 29 languages including English and Chinese. Models feature extended context lengths up to 128k tokens for larger sizes.",
+      "capabilities": [
+        "tools",
+        "multilingual",
+        "instruction following",
+        "code generation"
+      ],
+      "model_sizes": {
+        "default": "7b",
+        "available": ["0.5b", "1.5b", "7b", "72b"],
+        "parameters": {
+          "0.5b": "0.49B",
+          "1.5b": "1.54B", 
+          "7b": "7.07B",
+          "72b": "72.71B"
+        },
+        "context_length": {
+          "0.5b": 32000,
+          "1.5b": 32000,
+          "7b": 128000,
+          "72b": 128000
+        }
+      },
+      "pulls": 3900000,
+      "tags": 97,
+      "last_updated": "2 months ago",
+      "architecture": "qwen2",
+      "parameters": {
+        "7b": "7.62B"
+      },
+      "quantization": "Q4_0",
+      "size": "4.4GB",
+      "license": "Apache-2.0",
+      "system_prompt": "You are a helpful assistant.",
+      "languages": {
+        "primary": [
+          "English",
+          "Chinese"
+        ],
+        "supported_regions": [
+          "Western Europe",
+          "Eastern & Central Europe", 
+          "Middle East",
+          "Eastern Asia",
+          "South-Eastern Asia",
+          "Southern Asia"
+        ]
+      }
+    },
+    {
+      "name": "qwen2.5",
+      "description": "Qwen2.5 models are pretrained on Alibaba's latest large-scale dataset, encompassing up to 18 trillion tokens. The model supports up to 128K tokens and has multilingual support. It possesses significantly enhanced capabilities in coding and mathematics, with specialized expert models in these domains. The model demonstrates advancements in instruction following, long-text generation, structured data understanding, and JSON output generation.",
+      "capabilities": [
+        "tools",
+        "multilingual",
+        "instruction following",
+        "code generation",
+        "mathematics",
+        "structured data",
+        "long context"
+      ],
+      "model_sizes": {
+        "default": "7b",
+        "available": ["0.5b", "1.5b", "3b", "7b", "14b", "32b", "72b"],
+        "parameters": {
+          "7b": "7.62B",
+          "72b": "68B"
+        },
+        "context_length": {
+          "all": 128000
+        }
+      },
+      "pulls": 2100000,
+      "tags": 133,
+      "last_updated": "2 months ago",
+      "architecture": "qwen2",
+      "parameters": {
+        "7b": "7.62B"
+      },
+      "quantization": "Q4_K_M",
+      "size": "4.7GB",
+      "license": {
+        "default": "Apache-2.0",
+        "exceptions": {
+          "3b": "Qwen License",
+          "72b": "Qwen License"
+        }
+      },
+      "system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "languages": {
+        "count": 29,
+        "supported": [
+          "Chinese",
+          "English", 
+          "French",
+          "Spanish",
+          "Portuguese",
+          "German",
+          "Italian",
+          "Russian",
+          "Japanese",
+          "Korean",
+          "Vietnamese",
+          "Thai",
+          "Arabic"
+        ]
+      },
+      "references": {
+        "github": true,
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "mistral-nemo",
+      "description": "Mistral NeMo is a 12B model built in collaboration with NVIDIA. Mistral NeMo offers a large context window of up to 128k tokens. Its reasoning, world knowledge, and coding accuracy are state-of-the-art in its size category. As it relies on standard architecture, Mistral NeMo is easy to use and a drop-in replacement in any system using Mistral 7B.",
+      "capabilities": ["tools"],
+      "model_sizes": {
+        "default": "12b",
+        "available": ["12b"]
+      },
+      "parameters": "12.2B",
+      "architecture": "llama",
+      "quantization": "Q4_0",
+      "size": "7.1GB",
+      "pulls": 559300,
+      "tags": 17,
+      "last_updated": "3 months ago",
+      "max_tokens": 128000,
+      "license": "Apache-2.0",
+      "params": {
+        "stop": ["[INST]", "[/INST]"]
+      },
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "mixtral",
+      "description": "The Mixtral large Language Models (LLM) are a set of pretrained generative Sparse Mixture of Experts. Mixtral 8x22B sets a new standard for performance and efficiency within the AI community. It is a sparse Mixture-of-Experts (SMoE) model that uses only 39B active parameters out of 141B, offering unparalleled cost efficiency for its size.",
+      "capabilities": ["tools"],
+      "model_sizes": {
+        "default": "8x7b",
+        "available": ["8x7b", "8x22b"]
+      },
+      "parameters": "46.7B",
+      "architecture": "llama",
+      "quantization": "Q4_0",
+      "size": "26GB",
+      "pulls": 486100,
+      "tags": 69,
+      "last_updated": "4 months ago",
+      "max_tokens": 64000,
+      "license": "Apache-2.0",
+      "params": {
+        "stop": ["[INST]", "[/INST]"]
+      },
+      "template": "[INST] {{ if .System }}{{ .System }} {{ end }}{{ .Prompt }} [/INST]",
+      "languages": {
+        "supported": [
+          "English",
+          "French", 
+          "Italian",
+          "German",
+          "Spanish"
+        ]
+      },
+      "features": [
+        "Strong math capabilities",
+        "Strong coding capabilities",
+        "Native function calling",
+        "Large context window"
+      ],
+      "references": {
+        "announcement": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "command-r-plus",
+      "description": "Command R+ is Cohere's most powerful, scalable large language model (LLM) purpose-built to excel at real-world enterprise use cases. Command R+ balances high efficiency with strong accuracy, enabling businesses to move beyond proof-of-concept, and into production with AI.",
+      "capabilities": ["tools"],
+      "model_sizes": {
+        "default": "104b",
+        "available": ["104b"]
+      },
+      "parameters": "104B",
+      "architecture": "command-r",
+      "quantization": "Q4_0",
+      "size": "59GB",
+      "pulls": 105400,
+      "tags": 21,
+      "last_updated": "2 months ago",
+      "max_tokens": 128000,
+      "license": "Creative Commons Attribution-NonCommercial 4.0 International Public License with Acceptable Use Add",
+      "params": {
+        "stop": ["<|START_OF_TURN_TOKEN|>", "<|END_OF_TURN_TOKEN|>"]
+      },
+      "template": "{{- if or .Tools .System }}<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|> {{- if .Tools }}# Safety Preamble",
+      "system_prompt": "You are a knowledgable assistant. You can answer questions and perform tasks.",
+      "features": [
+        "Advanced RAG with citation",
+        "Multilingual support for 10 languages",
+        "Tool use capabilities",
+        "Large context window"
+      ],
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "command-r",
+      "description": "Command R is a generative model optimized for long context tasks such as retrieval-augmented generation (RAG) and using external APIs and tools. As a model built for companies to implement at scale, Command R boasts strong accuracy on RAG and Tool Use, low latency, high throughput, longer 128k context, and strong capabilities across 10 key languages.",
+      "capabilities": ["tools"],
+      "model_sizes": {
+        "default": "35b",
+        "available": ["35b"]
+      },
+      "parameters": "32.3B",
+      "architecture": "command-r",
+      "quantization": "Q4_0",
+      "size": "19GB",
+      "pulls": 244200,
+      "tags": 32,
+      "last_updated": "2 months ago",
+      "max_tokens": 128000,
+      "license": "Creative Commons Attribution-NonCommercial 4.0 International Public License with Acceptable Use Add",
+      "params": {
+        "stop": ["<|START_OF_TURN_TOKEN|>", "<|END_OF_TURN_TOKEN|>"]
+      },
+      "template": "{{- if or .Tools .System }}<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|> {{- if .Tools }}# Safety Preamble",
+      "system_prompt": "You are a knowledgable assistant. You can answer questions and perform tasks.",
+      "versions": {
+        "latest": "08-2024",
+        "available": ["v0.1", "08-2024"]
+      },
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "mistral-large",
+      "description": "Mistral Large 2 is Mistral's new flagship model that is significantly more capable in code generation, mathematics, and reasoning with 128k context window and support for dozens of languages.",
+      "capabilities": [
+        "tools",
+        "function calling",
+        "json output",
+        "code generation",
+        "mathematics",
+        "reasoning",
+        "multilingual"
+      ],
+      "model_sizes": {
+        "default": "123b",
+        "available": ["123b"]
+      },
+      "parameters": "123B",
+      "architecture": "llama",
+      "quantization": "Q4_K_M",
+      "size": "73GB",
+      "pulls": 102200,
+      "tags": 32,
+      "last_updated": "2 days ago",
+      "max_tokens": 128000,
+      "license": "Mistral AI Research License",
+      "params": {
+        "stop": ["[INST]", "[/INST]", "</s>"]
+      },
+      "languages": [
+        "English",
+        "French", 
+        "German",
+        "Spanish",
+        "Italian",
+        "Chinese",
+        "Japanese",
+        "Korean",
+        "Portuguese",
+        "Dutch",
+        "Polish"
+      ],
+      "coding_languages": [
+        "Python",
+        "Java", 
+        "C",
+        "C++",
+        "JavaScript",
+        "Bash",
+        "Swift",
+        "Fortran"
+      ],
+      "features": [
+        "State-of-the-art reasoning",
+        "Advanced coding capabilities",
+        "Native function calling",
+        "JSON output",
+        "Large 128k context window",
+        "Multi-lingual support",
+        "Mathematical capabilities"
+      ],
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "hermes3",
+      "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board. The model focuses on aligning LLMs to the user with powerful steering capabilities and control.",
+      "capabilities": [
+        "tools",
+        "function calling",
+        "structured output",
+        "code generation",
+        "roleplaying",
+        "reasoning",
+        "multi-turn conversation"
+      ],
+      "model_sizes": {
+        "default": "8b",
+        "available": ["8b", "70b", "405b"]
+      },
+      "size": "4.7GB",
+      "pulls": 58600,
+      "tags": 49,
+      "last_updated": "2 months ago",
+      "architecture": "llama",
+      "parameters": "8.03B",
+      "quantization": "Q4_0",
+      "license": "META LLAMA 3 COMMUNITY LICENSE",
+      "params": {
+        "stop": ["<|im_start|>", "<|im_end|>"]
+      },
+      "references": {
+        "technical_report": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "mistral-small",
+      "description": "Mistral Small v24.09 is an advanced small language model of 22B parameters with improved human alignment, reasoning capabilities, and code generation. Offers a mid-point between Mistral NeMo 12B and Mistral Large 2 for various use cases, excelling in tasks such as translation, summarization, and sentiment analysis.",
+      "capabilities": [
+        "tools",
+        "translation",
+        "summarization",
+        "sentiment analysis",
+        "code generation",
+        "reasoning"
+      ],
+      "size": "13GB",
+      "pulls": 46700,
+      "tags": 17,
+      "last_updated": "2 months ago",
+      "architecture": "llama",
+      "parameters": "22.2B",
+      "quantization": "Q4_0",
+      "max_tokens": 128000,
+      "params": {
+        "stop": ["[INST]", "[/INST]", "</s>"]
+      },
+      "features": [
+        "Cost-efficient",
+        "Versatile",
+        "Flexible deployment",
+        "Performance upgrade",
+        "128k sequence length"
+      ],
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "nemotron-mini",
+      "description": "Nemotron-Mini-4B-Instruct is a model for generating responses for roleplaying, retrieval augmented generation, and function calling. It is a small language model (SLM) optimized through distillation, pruning and quantization for speed and on-device deployment.",
+      "capabilities": [
+        "tools",
+        "roleplay",
+        "rag",
+        "function calling"
+      ],
+      "size": "2.7GB",
+      "pulls": 39900,
+      "tags": 17,
+      "last_updated": "2 months ago",
+      "architecture": "nemotron",
+      "parameters": "4.19B",
+      "quantization": "Q4_K_M",
+      "license": "NVIDIA AI Foundation Models Community License Agreement",
+      "max_tokens": 4096,
+      "params": {
+        "template": "{{- if (or .Tools .System) }}<extra_id_0>System {{ if .System }}{{ .System }} {{ end }} {{- if .Tools"
+      },
+      "features": [
+        "Commercial use allowed",
+        "English language",
+        "Optimized for speed",
+        "On-device deployment"
+      ],
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "llama3-groq-tool-use",
+      "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling. Developed in collaboration with Glaive, these models have achieved remarkable benchmarks with the 70B version reaching 90.76% accuracy (#1 on BFCL) and 8B version reaching 89.06% accuracy (#3 on BFCL) as of July 2024.",
+      "capabilities": ["tools", "function calling"],
+      "size": "4.7GB",
+      "pulls": 38000,
+      "tags": 33,
+      "last_updated": "4 months ago",
+      "architecture": "llama",
+      "parameters": "8.03B",
+      "quantization": "Q4_0",
+      "license": "META LLAMA 3 COMMUNITY LICENSE AGREEMENT – Adapted For Groq 8B/70B Tool Use",
+      "model_sizes": {
+        "default": "8b",
+        "available": ["8b", "70b"]
+      },
+      "params": {
+        "stop": ["<|start_header_id|>", "<|end_header_id|>", "<|eot_id|>"]
+      },
+      "features": [
+        "State-of-the-art tool use capabilities",
+        "High accuracy on benchmarks",
+        "Multiple model sizes available"
+      ],
+      "references": {
+        "huggingface": true,
+        "blog_post": true
+      }
+    },
+    {
+      "name": "nemotron",
+      "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries. This model was trained using RLHF (specifically, REINFORCE), Llama-3.1-Nemotron-70B-Reward and HelpSteer2-Preference prompts on a Llama-3.1-70B-Instruct model as the initial policy.",
+      "capabilities": ["tools"],
+      "size": "43GB",
+      "pulls": 34000,
+      "tags": 17,
+      "last_updated": "5 weeks ago",
+      "architecture": "llama",
+      "parameters": "70.6B",
+      "quantization": "Q4_K_M",
+      "license": "LLAMA 3.1 COMMUNITY LICENSE AGREEMENT",
+      "model_sizes": {
+        "default": "70b",
+        "available": ["70b"]
+      },
+      "params": {
+        "stop": ["<|start_header_id|>", "<|end_header_id|>", "<|eot_id|>"],
+        "template": "<|start_header_id|>system<|end_header_id|> {{ if .Tools }}You have access to the following function"
+      },
+      "features": [
+        "RLHF trained",
+        "Optimized for helpfulness",
+        "Based on Llama 3.1"
+      ],
+      "references": {
+        "huggingface": true
+      }
+    },
+    {
+      "name": "granite3-dense",
+      "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
+      "capabilities": [
+        "tools",
+        "summarization",
+        "text classification", 
+        "text extraction",
+        "question answering",
+        "rag",
+        "code generation",
+        "function calling",
+        "multilingual"
+      ],
+      "model_sizes": {
+        "default": "2b",
+        "available": ["2b", "8b"]
+      },
+      "parameters": "2.63B",
+      "architecture": "granite",
+      "quantization": "Q4_K_M",
+      "size": "1.6GB",
+      "pulls": 23100,
+      "tags": 33,
+      "last_updated": "2 days ago",
+      "license": "Apache-2.0",
+      "languages": [
+        "English",
+        "German", 
+        "Spanish",
+        "French",
+        "Japanese",
+        "Portuguese",
+        "Arabic",
+        "Czech",
+        "Italian",
+        "Korean",
+        "Dutch",
+        "Chinese (Simplified)"
+      ],
+      "system_prompt": "You are Granite, an AI language model developed by IBM in 2024.",
+      "template": "{{- if .Tools }}<|start_of_role|>available_tools<|end_of_role|> {{- range .Tools }} {{ . }} {{ end }}",
+      "references": {
+        "website": true,
+        "github": true,
+        "release_date": "2024-10-21"
+      }
+    },
+    {
+      "name": "smollm2",
+      "description": "SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters. They are capable of solving a wide range of tasks while being lightweight enough to run on-device.",
+      "capabilities": ["tools"],
+      "model_sizes": {
+        "default": "1.7b",
+        "available": ["135m", "360m", "1.7b"]
+      },
+      "parameters": "1.71B",
+      "architecture": "llama",
+      "quantization": "Q8_0",
+      "size": "1.8GB",
+      "pulls": 15200,
+      "tags": 49,
+      "last_updated": "3 weeks ago",
+      "license": "Apache-2.0",
+      "params": {
+        "stop": ["<|im_start|>", "<|im_end|>"]
+      },
+      "system_prompt": "You are a helpful AI assistant named SmolLM, trained by Hugging Face",
+      "template": "{{- if .Messages }} {{- if .Tools }}<|im_start|>system You are an expert in composing functions. Yo",
+      "references": {
+        "huggingface": true
+      }
+    },
+    {
+      "name": "granite3-moe",
+      "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage. The models are trained on over 10 trillion tokens of data and are ideal for deployment in on-device applications or situations requiring instantaneous inference.",
+      "capabilities": [
+        "tools",
+        "summarization",
+        "text classification", 
+        "text extraction",
+        "question answering",
+        "rag",
+        "code generation",
+        "function calling",
+        "multilingual"
+      ],
+      "model_sizes": {
+        "default": "1b",
+        "available": ["1b", "3b"]
+      },
+      "parameters": "1.33B",
+      "architecture": "granitemoe",
+      "quantization": "Q4_K_M",
+      "size": "822MB",
+      "pulls": 15200,
+      "tags": 33,
+      "last_updated": "2 days ago",
+      "license": "Apache-2.0",
+      "params": {
+        "num_gpu": 23
+      },
+      "languages": [
+        "English",
+        "German",
+        "Spanish", 
+        "French",
+        "Japanese",
+        "Portuguese",
+        "Arabic",
+        "Czech",
+        "Italian",
+        "Korean",
+        "Dutch",
+        "Chinese (Simplified)"
+      ],
+      "system_prompt": "You are Granite, an AI language model developed by IBM in 2024.",
+      "template": "{{- if .Tools }}<|start_of_role|>available_tools<|end_of_role|> {{- range .Tools }} {{ . }} {{ end }}",
+      "references": {
+        "website": true,
+        "github": true,
+        "release_date": "2024-10-21"
+      }
+    },
+    {
+      "name": "firefunction-v2", 
+      "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities. Optimized for real world scenarios including multi-turn conversation, instruction following and parallel function calling. Retains Llama 3's multi-turn instruction capability while consistently outscoring Llama 3 on function calling tasks.",
+      "capabilities": ["tools", "function calling", "multi-turn conversation", "instruction following"],
+      "model_sizes": {
+        "default": "70b",
+        "available": ["70b"]
+      },
+      "parameters": "70.6B",
+      "architecture": "llama",
+      "quantization": "Q4_0",
+      "size": "40GB",
+      "pulls": 14800,
+      "tags": 17,
+      "last_updated": "4 months ago",
+      "license": "META LLAMA 3 COMMUNITY LICENSE AGREEMENT",
+      "params": {
+        "stop": ["<|start_header_id|>", "<|end_header_id|>", "<|eot_id|>"]
+      },
+      "template": "{{- if .Messages }} {{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|> {{ if .Sy",
+      "benchmarks": {
+        "function_calling": "0.81 vs GPT-4o 0.80",
+        "mt_bench": "0.84 vs Llama 3 0.89",
+        "nexus_parallel_multi_function": "0.51 vs Llama 3 0.30"
+      },
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "aya-expanse",
+      "description": "Aya Expanse represents a significant advancement in multilingual AI capabilities. Combining Cohere's Command model family with a year of focused research in multilingual optimization has produced versatile 8B and 32B parameter models that can understand and generate text across 23 languages while maintaining high performance across all of them.",
+      "capabilities": ["tools"],
+      "model_sizes": {
+        "default": "8b",
+        "available": ["8b", "32b"]
+      },
+      "parameters": "8.03B",
+      "architecture": "command-r",
+      "quantization": "Q4_K_M",
+      "size": "5.1GB",
+      "pulls": 13500,
+      "tags": 33,
+      "last_updated": "4 weeks ago",
+      "max_tokens": 128000,
+      "license": "Creative Commons Attribution-NonCommercial 4.0 International Public License with Acceptable Use Add",
+      "params": {
+        "stop": ["<|START_OF_TURN_TOKEN|>", "<|END_OF_TURN_TOKEN|>"]
+      },
+      "template": "{{- if or .Tools .System }}<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|> {{- if .Tools }}# Safety Preamble",
+      "system_prompt": "You are Aya, a brilliant, sophisticated, multilingual AI-assistant trained to assist human users by",
+      "languages": {
+        "supported": [
+          "Arabic",
+          "Chinese (Simplified)",
+          "Chinese (Traditional)", 
+          "Czech",
+          "Dutch",
+          "English",
+          "French",
+          "German",
+          "Greek",
+          "Hebrew",
+          "Hindi",
+          "Indonesian",
+          "Italian",
+          "Japanese",
+          "Korean",
+          "Persian",
+          "Polish",
+          "Portuguese",
+          "Romanian",
+          "Russian",
+          "Spanish",
+          "Turkish",
+          "Ukrainian",
+          "Vietnamese"
+        ]
+      },
+      "features": [
+        "Multilingual optimization",
+        "Large context window",
+        "Safety tuning",
+        "Data arbitrage"
+      ],
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "athene-v2",
+      "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks. Built on Qwen 2.5's 72B foundation, it achieves GPT-4o-level performance across key benchmarks while demonstrating how targeted optimization can enhance specific capabilities beyond traditional scaling approaches.",
+      "capabilities": [
+        "tools",
+        "code completion",
+        "mathematics",
+        "log extraction"
+      ],
+      "model_sizes": {
+        "default": "72b",
+        "available": ["72b"]
+      },
+      "parameters": "72.7B",
+      "architecture": "qwen2",
+      "quantization": "Q4_K_M",
+      "size": "47GB",
+      "pulls": 1489,
+      "tags": 17,
+      "last_updated": "6 days ago",
+      "template": "{{- if .Messages }} {{- if or .System .Tools }}<|im_start|>system {{- if .System }} {{ .System }} {{",
+      "system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "license": "Nexusflow.ai License Terms for Personal Use",
+      "features": [
+        "State-of-the-art chat performance",
+        "Superior code completion",
+        "Enhanced mathematics capabilities",
+        "Precise long-form log extraction",
+        "Advanced post-training pipeline"
+      ],
+      "references": {
+        "blog_post": true,
+        "huggingface": true
+      }
+    }
+  ]
+}

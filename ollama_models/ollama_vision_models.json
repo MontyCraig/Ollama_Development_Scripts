@@ -1,0 +1,321 @@
+{
+  "models": [
+    {
+      "name": "llama3.2-vision",
+      "description": "Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.",
+      "type": "vision",
+      "model_sizes": {
+        "available": ["11b", "90b"]
+      },
+      "pulls": 132700,
+      "tags": 9,
+      "last_updated": "2 weeks ago",
+      "size": "7.9GB",
+      "architecture": "mllama",
+      "parameters": "9.78B",
+      "quantization": "Q4_K_M",
+      "license": "LLAMA 3.2 COMMUNITY LICENSE AGREEMENT",
+      "params": {
+        "temperature": 0.6,
+        "top_p": 0.9
+      },
+      "template": "{{- range $index, $_ := .Messages }}<|start_header_id|>{{ .Role }}<|end_header_id|> {{ .Content }}",
+      "languages": {
+        "text": [
+          "English",
+          "German", 
+          "French",
+          "Italian",
+          "Portuguese",
+          "Hindi",
+          "Spanish",
+          "Thai"
+        ],
+        "vision": ["English"]
+      },
+      "capabilities": [
+        "visual recognition",
+        "image reasoning",
+        "image captioning",
+        "visual question answering"
+      ],
+      "components": {
+        "model": {
+          "architecture": "mllama",
+          "parameters": "9.78B",
+          "quantization": "Q4_K_M",
+          "size": "6.0GB"
+        },
+        "projector": {
+          "architecture": "mllama", 
+          "parameters": "895M",
+          "quantization": "F16",
+          "size": "1.9GB"
+        }
+      },
+      "references": {
+        "github": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "llava",
+      "description": "🌋 LLaVA is a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. Updated to version 1.6.",
+      "type": "vision",
+      "model_sizes": {
+        "default": "7b",
+        "available": ["7b", "13b", "34b"]
+      },
+      "parameters": "30B",
+      "architecture": "llama",
+      "quantization": "Q4_0",
+      "size": "4.7GB",
+      "pulls": 1900000,
+      "tags": 98,
+      "last_updated": "9 months ago",
+      "license": "Apache License Version 2.0, January 2004",
+      "params": {
+        "stop": ["[INST]", "[/INST]"]
+      },
+      "template": "[INST] {{ if .System }}{{ .System }} {{ end }}{{ .Prompt }} [/INST]",
+      "components": {
+        "model": {
+          "architecture": "llama",
+          "parameters": "7.24B",
+          "quantization": "Q4_0",
+          "size": "4.1GB"
+        },
+        "projector": {
+          "architecture": "clip",
+          "parameters": "312M",
+          "quantization": "F16",
+          "size": "624MB"
+        }
+      },
+      "features": [
+        "High resolution image support up to 672x672",
+        "Supports 336x1344 and 1344x336 resolutions",
+        "Enhanced visual reasoning and OCR",
+        "Improved visual conversation capabilities",
+        "Strong world knowledge and logical reasoning"
+      ],
+      "references": {
+        "website": true,
+        "github": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "llava-llama3",
+      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
+      "type": "vision",
+      "model_sizes": {
+        "default": "8b",
+        "available": ["8b"]
+      },
+      "parameters": "8.03B",
+      "architecture": "llama",
+      "quantization": "Q4_K_M",
+      "size": "5.5GB",
+      "pulls": 220800,
+      "tags": 4,
+      "last_updated": "6 months ago",
+      "params": {
+        "num_ctx": 4096,
+        "num_keep": 4,
+        "stop": ["<|start_header_id|>", "<|end_header_id|>"]
+      },
+      "template": "{{ if .System }}<|start_header_id|>system<|end_header_id|> {{ .System }}<|eot_id|>{{ end }}{{ if .P",
+      "components": {
+        "model": {
+          "architecture": "llama",
+          "parameters": "8.03B", 
+          "quantization": "Q4_K_M",
+          "size": "4.9GB"
+        },
+        "projector": {
+          "architecture": "clip",
+          "parameters": "312M",
+          "quantization": "F16",
+          "size": "624MB"
+        }
+      },
+      "references": {
+        "huggingface": true,
+        "github": true
+      }
+    },
+    {
+      "name": "bakllava",
+      "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA architecture.",
+      "type": "vision",
+      "model_sizes": {
+        "default": "7b",
+        "available": ["7b"]
+      },
+      "parameters": "7.24B",
+      "architecture": "llama",
+      "quantization": "Q4_0",
+      "size": "4.7GB",
+      "pulls": 98200,
+      "tags": 17,
+      "last_updated": "11 months ago",
+      "params": {
+        "num_ctx": 4096,
+        "stop": ["</s>", "USER:"]
+      },
+      "template": "{{ .System }} USER: {{ .Prompt }} ASSSISTANT:",
+      "components": {
+        "model": {
+          "architecture": "llama",
+          "parameters": "7.24B",
+          "quantization": "Q4_0",
+          "size": "4.1GB"
+        },
+        "projector": {
+          "architecture": "clip",
+          "parameters": "312M",
+          "quantization": "F16",
+          "size": "624MB"
+        }
+      },
+      "references": {
+        "github": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "moondream",
+      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
+      "type": "vision",
+      "model_sizes": {
+        "default": "1.8b",
+        "available": ["1.8b"]
+      },
+      "parameters": "1.42B",
+      "architecture": "phi2",
+      "quantization": "Q4_0",
+      "size": "1.7GB",
+      "pulls": 82200,
+      "tags": 18,
+      "last_updated": "6 months ago",
+      "params": {
+        "stop": ["<|endoftext|>", "Question:"],
+        "temperature": 0
+      },
+      "template": "{{ if .Prompt }} Question: {{ .Prompt }} {{ end }} Answer: {{ .Response }}",
+      "license": "Apache License Version 2.0, January 2004",
+      "components": {
+        "model": {
+          "architecture": "phi2",
+          "parameters": "1.42B", 
+          "quantization": "Q4_0",
+          "size": "829MB"
+        },
+        "projector": {
+          "architecture": "clip",
+          "parameters": "454M",
+          "quantization": "F16", 
+          "size": "910MB"
+        }
+      },
+      "limitations": [
+        "May generate inaccurate statements",
+        "May struggle with intricate or nuanced instructions",
+        "May contain societal biases",
+        "May generate offensive content if prompted"
+      ],
+      "references": {
+        "github": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "llava-phi3",
+      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini, with strong performance benchmarks on par with the original LLaVA model.",
+      "type": "vision",
+      "model_sizes": {
+        "default": "3.8b",
+        "available": ["3.8b"]
+      },
+      "parameters": "3.82B",
+      "architecture": "llama",
+      "quantization": "Q4_K_M",
+      "size": "2.9GB",
+      "pulls": 52800,
+      "tags": 4,
+      "last_updated": "6 months ago",
+      "params": {
+        "num_ctx": 4096,
+        "num_keep": 4,
+        "stop": ["<|user|>", "<|assistant|>", "<|system|>"]
+      },
+      "template": "{{ if .System }}<|system|> {{ .System }}<|end|> {{ end }}{{ if .Prompt }}<|user|> {{ .Prompt }}<|end",
+      "components": {
+        "model": {
+          "architecture": "llama",
+          "parameters": "3.82B",
+          "quantization": "Q4_K_M",
+          "size": "2.3GB"
+        },
+        "projector": {
+          "architecture": "clip",
+          "parameters": "303M",
+          "quantization": "F16",
+          "size": "608MB"
+        }
+      },
+      "references": {
+        "github": true,
+        "huggingface": true
+      }
+    },
+    {
+      "name": "minicpm-v",
+      "description": "MiniCPM-V 2.6 is a multimodal LLM built on SigLip-400M and Qwen2-7B, designed for vision-language understanding with state-of-the-art performance in single/multi-image understanding, OCR capabilities, and efficient token processing.",
+      "type": "vision",
+      "model_sizes": {
+        "default": "8b",
+        "available": ["8b"]
+      },
+      "parameters": "7.61B",
+      "architecture": "qwen2",
+      "quantization": "Q4_0",
+      "size": "5.5GB",
+      "pulls": 42400,
+      "tags": 17,
+      "last_updated": "4 days ago",
+      "params": {
+        "stop": ["<|im_start|>", "<|im_end|>"]
+      },
+      "template": "{{- if .Messages }} {{- range $i, $_ := .Messages }} {{- $last := eq (len (slice $.Messages $i)) 1 -",
+      "license": "Version 1.0, June 5, 2024 © 2024 OpenBMB",
+      "components": {
+        "model": {
+          "architecture": "qwen2",
+          "parameters": "7.61B",
+          "quantization": "Q4_0",
+          "size": "4.4GB"
+        },
+        "projector": {
+          "architecture": "clip",
+          "parameters": "504M",
+          "quantization": "F16",
+          "size": "1.0GB"
+        }
+      },
+      "features": [
+        "Leading performance on OpenCompass benchmarks",
+        "Multi-image understanding and in-context learning",
+        "Strong OCR capability up to 1.8M pixels",
+        "Support for multiple languages",
+        "Efficient token processing with 75% fewer tokens",
+        "Low hallucination rates"
+      ],
+      "references": {
+        "github": true,
+        "huggingface": true
+      }
+    }
+  ]
+}

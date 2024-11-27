@@ -1,108 +1,113 @@
-# Async Chat Stream Processing System
+# Ollama Chat Stream Processing System
 
-## Overview
-An advanced asynchronous chat interface that leverages Ollama's AI models for intelligent task processing and code generation. The system features model size categorization, embedding support, and comprehensive task management.
+A robust, modular Python framework for building advanced chat applications with Ollama models, featuring asynchronous processing, streaming responses, and comprehensive task management.
 
-## Key Features
+## 🌟 Features
 
-### Model Management
-- Dynamic model categorization (Small < 5GB, Medium 5-20GB, Large > 20GB)
-- Embedding model support
-- Real-time model list updates
-- Size-based model filtering
+* **Asynchronous Processing**: Built with Python's asyncio for efficient task handling
+* **Streaming Responses**: Real-time streaming of model outputs
+* **Multi-Model Support**: Compatible with various Ollama models
+* **Task Management**: CSV-based task organization and tracking
+* **Code Generation**: Support for multiple programming languages
+* **Modular Design**: Clean, maintainable, and extensible architecture
+* **Comprehensive Logging**: Detailed activity and performance tracking
 
-### Chat Interface
-- Interactive terminal-based chat
-- Asynchronous response streaming
-- Conversation saving capabilities
-- Task list generation from chats
+## 🚀 Quick Start
 
-### Task Processing
-- CSV-based task management
-- Hierarchical task organization
-- Task status tracking
-- Automated task reformatting
+### Prerequisites
 
-### Output Management
-- Multi-format output generation
-  - Text files
-  - JSON metadata
-  - Language-specific code files
-- UUID-based file organization
-- Version control for outputs
+* Python 3.8+
+* Ollama installed and running
+* Git (for version control)
 
-### System Features
-- Comprehensive logging
-- Path sanitization
-- Error handling
-- Metadata tracking
-- Async I/O operations
+### Installation
 
-## Quick Start
 ```bash
+# Clone the repository
+git clone https://github.com/MontyCraig/Ollama_Presentation.git
+cd Ollama_Presentation
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
-
-# Run the application
-python async-chat-stream_2_main_v1.0.py
 ```
 
-## Menu Options
-1. Start Chat Session
-2. Process Task List
-3. View Available Models
-4. View Current Tasks
-5. Exit
+### Basic Usage
 
-## Usage Examples
-
-### Chat Mode
 ```bash
-1. Select "Start Chat Session"
-2. Choose model size preference
-3. Select specific model
-4. Start chatting
-5. Type 'save' to save conversation
-6. Type 'exit' to end chat
+# Run with default settings
+python async-chat-stream_2_main_v1.0/main.py
+
+# Enable text-to-speech
+python async-chat-stream_2_main_v1.0/main.py --speak
+
+# Use specific model
+python async-chat-stream_2_main_v1.0/main.py --model qwen2:7b
 ```
 
-### Task Processing
-```bash
-1. Select "Process Task List"
-2. Choose model
-3. View task execution
-4. Check output in respective folders
-```
+## 🏗️ Project Structure
 
-## Project Structure
 ```
 async-chat-stream_2_main_v1.0/
-├── async-chat-stream_2_main_v1.0.py
-├── requirements.txt
-├── README.md
-├── SETUP.md
-├── output/
-│   └── model_tests/
-├── task_lists/
-└── async_chat_stream.log
+├── modules/           # Core functionality
+├── legacy/           # Previous versions
+└── docs/            # Documentation
+
+chat_bot/
+├── core/            # Core components
+└── utils/           # Utility functions
 ```
 
-## Documentation
-- [Setup Guide](SETUP.md)
-- [Technical Report](TECHNICAL_REPORT.md)
-- [Code Analysis](CODE_ANALYSIS.md)
+## 📚 Documentation
 
-## Requirements
-- Python 3.8+
-- Ollama API
-- See requirements.txt for full list
+* [Setup Guide](async-chat-stream_2_main_v1.0/SETUP.md)
+* [Technical Report](async-chat-stream_2_main_v1.0/TECHNICAL_REPORT.md)
+* [Code Standards](async-chat-stream_2_main_v1.0/CODING_STANDARDS.md)
+* [Repository Structure](REPOSITORY_STRUCTURE.md)
 
-## License
+## 🛠️ Features in Detail
+
+### Task Management
+* CSV-based task organization
+* Interactive task selection
+* Progress tracking
+* Task completion persistence
+
+### Output Management
+* Structured file organization
+* Multiple output formats
+* Version control
+* Metadata tracking
+
+### Model Integration
+* Asynchronous client implementation
+* Streaming response handling
+* Context management
+* Token counting
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
 [Specify License]
 
-## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+## 🙏 Acknowledgments
 
-```
+* Ollama team for the excellent model framework
+* Contributors and testers
+* Open source community
 
-</rewritten_file>
+## 📞 Contact
+
+Monty Craig - [Your Contact Info]
+
+Project Link: [https://github.com/MontyCraig/Ollama_Presentation](https://github.com/MontyCraig/Ollama_Presentation)

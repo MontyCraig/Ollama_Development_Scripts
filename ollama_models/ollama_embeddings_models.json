@@ -1,0 +1,190 @@
+{
+  "models": [
+    {
+      "name": "nomic-embed-text",
+      "description": "A high-performing open embedding model with a large token context window that surpasses OpenAI text-embedding-ada-002 and text-embedding-3-small performance on short and long context tasks.",
+      "type": "embedding",
+      "size": "274MB",
+      "pulls": 3,
+      "tags": 3,
+      "last_updated": "9 months ago",
+      "architecture": "nomic-bert",
+      "parameters": "137M",
+      "quantization": "F16",
+      "license": "Apache-2.0",
+      "max_tokens": 8192,
+      "min_ollama_version": "0.1.26",
+      "capabilities": [
+        "embeddings"
+      ],
+      "api_examples": {
+        "rest": "curl http://localhost:11434/api/embeddings -d '{\n  \"model\": \"nomic-embed-text\",\n  \"prompt\": \"The sky is blue because of Rayleigh scattering\"\n}'",
+        "python": "ollama.embeddings(model='nomic-embed-text', prompt='The sky is blue because of rayleigh scattering')",
+        "javascript": "ollama.embeddings({ model: 'nomic-embed-text', prompt: 'The sky is blue because of rayleigh scattering' })"
+      },
+      "references": {
+        "huggingface": true,
+        "blog_post": true
+      }
+    },
+    {
+      "name": "mxbai-embed-large",
+      "description": "State-of-the-art large embedding model from mixedbread.ai that outperforms commercial models like OpenAI's text-embedding-3-large and matches performance of models 20x its size. Achieves SOTA performance for BERT-large sized models on MTEB with strong generalization across domains.",
+      "type": "embedding", 
+      "size": "670MB",
+      "pulls": 570900,
+      "tags": 4,
+      "last_updated": "6 months ago",
+      "architecture": "bert",
+      "parameters": "334M",
+      "quantization": "F16",
+      "license": "Apache-2.0",
+      "max_tokens": 512,
+      "capabilities": [
+        "embeddings"
+      ],
+      "api_examples": {
+        "rest": "curl http://localhost:11434/api/embeddings -d '{\n  \"model\": \"mxbai-embed-large\",\n  \"prompt\": \"Represent this sentence for searching relevant passages: The sky is blue because of Rayleigh scattering\"\n}'",
+        "python": "ollama.embeddings(model='mxbai-embed-large', prompt='Represent this sentence for searching relevant passages: The sky is blue because of Rayleigh scattering')",
+        "javascript": "ollama.embeddings({ model: 'mxbai-embed-large', prompt: 'Represent this sentence for searching relevant passages: The sky is blue because of Rayleigh scattering' })"
+      },
+      "references": {
+        "huggingface": true,
+        "blog_post": true
+      }
+    },
+    {
+      "name": "snowflake-arctic-embed",
+      "description": "A suite of text embedding models that focuses on creating high-quality retrieval models optimized for performance. The models are trained by leveraging existing open-source text representation models, such as bert-base-uncased, and are trained in a multi-stage pipeline to optimize their retrieval performance.",
+      "type": "embedding",
+      "size": "669MB",
+      "pulls": 184800,
+      "tags": 16,
+      "last_updated": "7 months ago",
+      "architecture": "bert",
+      "parameters": "334M", 
+      "quantization": "F16",
+      "license": "Apache-2.0",
+      "model_sizes": {
+        "default": "335m",
+        "available": ["22m", "33m", "110m", "137m", "335m"]
+      },
+      "capabilities": [
+        "embeddings"
+      ],
+      "references": {
+        "huggingface": true,
+        "blog_post": true
+      }
+    },
+    {
+      "name": "all-minilm",
+      "description": "The project aims to train sentence embedding models on very large sentence level datasets using a self-supervised contrastive learning objective.",
+      "type": "embedding",
+      "size": "46MB",
+      "pulls": 169500,
+      "tags": 10,
+      "last_updated": "6 months ago",
+      "architecture": "bert",
+      "parameters": "22.6M",
+      "quantization": "F16",
+      "license": "Apache-2.0",
+      "max_tokens": 256,
+      "capabilities": [
+        "embeddings"
+      ],
+      "api_examples": {
+        "rest": "curl http://localhost:11434/api/embeddings -d '{\n  \"model\": \"all-minilm\",\n  \"prompt\": \"The sky is blue because of Rayleigh scattering\"\n}'",
+        "python": "ollama.embeddings(model='all-minilm', prompt='The sky is blue because of Rayleigh scattering')",
+        "javascript": "ollama.embeddings({ model: 'all-minilm', prompt: 'The sky is blue because of Rayleigh scattering' })"
+      },
+      "references": {
+        "huggingface": true,
+        "website": true
+      }
+    },
+    {
+      "name": "bge-m3",
+      "description": "BGE-M3 is based on XLM-RoBERTa architecture and is distinguished for its versatility in Multi-Functionality (dense/multi-vector/sparse retrieval), Multi-Linguality (100+ languages), and Multi-Granularity (processing up to 8192 tokens). It can simultaneously perform dense retrieval, multi-vector retrieval, and sparse retrieval.",
+      "type": "embedding", 
+      "size": "1.2GB",
+      "pulls": 48100,
+      "tags": 3,
+      "last_updated": "3 months ago",
+      "architecture": "xlm-roberta",
+      "parameters": "567M",
+      "quantization": "F16",
+      "license": "MIT",
+      "max_tokens": 8192,
+      "languages": "100+",
+      "capabilities": [
+        "dense retrieval",
+        "multi-vector retrieval",
+        "sparse retrieval"
+      ],
+      "references": {
+        "paper": "arXiv:2402.03216",
+        "year": "2024"
+      }
+    },
+    {
+      "name": "bge-large",
+      "description": "FlagEmbedding can map any text to a low-dimensional dense vector which can be used for tasks like retrieval, classification, clustering, or semantic search. And it also can be used in vector databases for LLMs.",
+      "type": "embedding",
+      "size": "671MB",
+      "pulls": 13100,
+      "tags": 3,
+      "last_updated": "3 months ago",
+      "architecture": "bert",
+      "parameters": "334M", 
+      "quantization": "F16",
+      "license": "MIT",
+      "capabilities": [
+        "embeddings",
+        "retrieval",
+        "classification",
+        "clustering",
+        "semantic search"
+      ],
+      "references": {
+        "paper": "arXiv:2309.07597",
+        "year": "2023",
+        "authors": [
+          "Shitao Xiao",
+          "Zheng Liu", 
+          "Peitian Zhang",
+          "Niklas Muennighoff"
+        ]
+      }
+    },
+    {
+      "name": "paraphrase-multilingual",
+      "description": "Sentence-transformers model that maps sentences & paragraphs to a 768 dimensional dense vector space. Can be used for tasks like clustering or semantic search.",
+      "type": "embedding", 
+      "size": "563MB",
+      "pulls": 7422,
+      "tags": 3,
+      "last_updated": "3 months ago",
+      "architecture": "bert",
+      "parameters": "277M",
+      "quantization": "F16",
+      "license": "Apache-2.0",
+      "max_tokens": 128,
+      "vector_dim": 768,
+      "capabilities": [
+        "embeddings",
+        "clustering",
+        "semantic search"
+      ],
+      "references": {
+        "paper": "arXiv:1908.10084",
+        "year": "2019",
+        "authors": [
+          "Nils Reimers",
+          "Iryna Gurevych"
+        ],
+        "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks"
+      }
+    }
+  ]
+}

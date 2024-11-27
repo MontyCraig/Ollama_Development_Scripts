@@ -1,0 +1,680 @@
+[
+  {
+    "name": "smollm:135m",
+    "size": 0.08543895836919546,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "mapler/lite-mistral-150m-instruct:latest",
+    "size": 0.15562695171684027,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "smollm:360m",
+    "size": 0.21339490171521902,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "smollm2:135m",
+    "size": 0.25229404866695404,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "nomic-embed-text:latest",
+    "size": 0.25546406395733356,
+    "size_category": "embedding",
+    "is_embedding": true
+  },
+  {
+    "name": "qwen2:0.5b",
+    "size": 0.32797832135111094,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2.5-coder:0.5b",
+    "size": 0.49460843205451965,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "yuki_ho/bce-embedding:fp16",
+    "size": 0.5241161650046706,
+    "size_category": "embedding",
+    "is_embedding": true
+  },
+  {
+    "name": "paraphrase-multilingual:latest",
+    "size": 0.524127728305757,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "tinydolphin:latest",
+    "size": 0.5930136954411864,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "aerok/acge_text_embedding:latest",
+    "size": 0.6082646613940597,
+    "size_category": "embedding",
+    "is_embedding": true
+  },
+  {
+    "name": "snowflake-arctic-embed:335m",
+    "size": 0.6235141260549426,
+    "size_category": "embedding",
+    "is_embedding": true
+  },
+  {
+    "name": "mxbai-embed-large:335m",
+    "size": 0.6236280249431729,
+    "size_category": "embedding",
+    "is_embedding": true
+  },
+  {
+    "name": "mxbai-embed-large:latest",
+    "size": 0.6236280249431729,
+    "size_category": "embedding",
+    "is_embedding": true
+  },
+  {
+    "name": "bge-large:latest",
+    "size": 0.6244816156104207,
+    "size_category": "embedding",
+    "is_embedding": true
+  },
+  {
+    "name": "smollm2:360m",
+    "size": 0.6757364720106125,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "starcoder:1b",
+    "size": 0.6762154651805758,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "granite3-moe:1b",
+    "size": 0.7654141671955585,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2:1.5b",
+    "size": 0.8707531746476889,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2-math:1.5b",
+    "size": 0.8707534391433001,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "reader-lm:latest",
+    "size": 0.8707558121532202,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2.5-coder:1.5b",
+    "size": 0.91834188811481,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "smollm:1.7b",
+    "size": 0.9226997680962086,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "bge-m3:latest",
+    "size": 1.0781666310504079,
+    "size_category": "embedding",
+    "is_embedding": true
+  },
+  {
+    "name": "llama3.2:1b",
+    "size": 1.2303686970844865,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "opencoder:1.5b",
+    "size": 1.3204129384830594,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "codegemma:2b",
+    "size": 1.4446659907698631,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "granite3-dense:latest",
+    "size": 1.4919152753427625,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "dolphin-phi:latest",
+    "size": 1.4924200717359781,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "stable-code:3b-code-q4_0",
+    "size": 1.4981056302785873,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "gemma:2b",
+    "size": 1.5631845742464066,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "starcoder2:latest",
+    "size": 1.5924699092283845,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "moondream:latest",
+    "size": 1.6190588446334004,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "smollm2:latest",
+    "size": 1.6954061882570386,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "starcoder:3b",
+    "size": 1.705464537255466,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2.5-coder:3b",
+    "size": 1.797371156513691,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "orca-mini:latest",
+    "size": 1.8439697502180934,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "granite-code:3b",
+    "size": 1.8601593133062124,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llama3.2:3b",
+    "size": 1.8807064639404416,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "granite3-moe:latest",
+    "size": 1.9179360521957278,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "phi3.5:latest",
+    "size": 2.0267244270071387,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "nuextract:latest",
+    "size": 2.026733332313597,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen:latest",
+    "size": 2.1700685480609536,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "granite3-guardian:latest",
+    "size": 2.509107157588005,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "nemotron-mini:latest",
+    "size": 2.5121518839150667,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llava-phi3:latest",
+    "size": 2.725579734891653,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "mannix/nous-hermes2-solar-10.7b:iq2_s",
+    "size": 3.159808778204024,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "yi:latest",
+    "size": 3.24038662109524,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "wizard-vicuna-uncensored:latest",
+    "size": 3.5630608880892396,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llama2-uncensored:latest",
+    "size": 3.5630720192566514,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "codellama:latest",
+    "size": 3.56315696798265,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "codellama:7b-code-q4_K_M",
+    "size": 3.8008276615291834,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "mistral-openorca:latest",
+    "size": 3.826737640425563,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "wizardlm2:latest",
+    "size": 3.826737985946238,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "mistrallite:latest",
+    "size": 3.8267429657280445,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "dolphin-mistral:latest",
+    "size": 3.826748880557716,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "mistral:latest",
+    "size": 3.827610201202333,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "openchat:latest",
+    "size": 3.827620657160878,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "mathstral:latest",
+    "size": 3.8308098195120692,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "codeqwen:latest",
+    "size": 3.892411413602531,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "dolphincoder:latest",
+    "size": 3.938210617750883,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "starcoder:7b",
+    "size": 4.000264282338321,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2:7b",
+    "size": 4.127063101157546,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "goktugkoksal/gwen2_05:latest",
+    "size": 4.127063197083771,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2-math:latest",
+    "size": 4.127063335850835,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "internlm2:latest",
+    "size": 4.147419692017138,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "jmorgan/bespoke-minicheck:latest",
+    "size": 4.147441727109253,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llama3-chatqa:latest",
+    "size": 4.341103379614651,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llama3-gradient:latest",
+    "size": 4.341103734448552,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llama3:latest",
+    "size": 4.34110376611352,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llama3.1:latest",
+    "size": 4.341104091145098,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "hermes3:latest",
+    "size": 4.3411055859178305,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "dolphin-llama3:latest",
+    "size": 4.341114306822419,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llama3-groq-tool-use:latest",
+    "size": 4.341134346090257,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2.5:latest",
+    "size": 4.361464951187372,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2.5-coder:latest",
+    "size": 4.3614651914685965,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2.5-coder:7b",
+    "size": 4.361465228721499,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "bespoke-minicheck:latest",
+    "size": 4.3891409477218986,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "llava:latest",
+    "size": 4.408288166858256,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "opencoder:latest",
+    "size": 4.410805468447506,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "aya:8b",
+    "size": 4.467995858751237,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "tulu3:latest",
+    "size": 4.582841818220913,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "granite3-dense:8b",
+    "size": 4.603405018337071,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "codegemma:7b",
+    "size": 4.667651661671698,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "yi-coder:latest",
+    "size": 4.691079047508538,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "aya-expanse:latest",
+    "size": 4.709698372520506,
+    "size_category": "small",
+    "is_embedding": false
+  },
+  {
+    "name": "gemma2:latest",
+    "size": 5.078511911444366,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "codegeex4:latest",
+    "size": 5.080665732733905,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "codegeex4:9b",
+    "size": 5.080665732733905,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "glm4:latest",
+    "size": 5.080668474547565,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "codeqwen:7b-code-v1.5-q5_1",
+    "size": 5.092301158234477,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "minicpm-v:latest",
+    "size": 5.097914642654359,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "llava-llama3:latest",
+    "size": 5.164819007739425,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "granite3-guardian:8b",
+    "size": 5.3993158508092165,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "falcon2:latest",
+    "size": 5.944211359135807,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "llama3:8b-instruct-q6_K",
+    "size": 6.143021795898676,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "mistral-nemo:latest",
+    "size": 6.586046175099909,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "wojtek/magicoder:6.7b-s-ds-q8_0",
+    "size": 6.671884138137102,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "everythinglm:latest",
+    "size": 6.860881839878857,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "codeqwen:7b-code-v1.5-q8_0",
+    "size": 7.177498606964946,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "phi3:medium",
+    "size": 7.354771942831576,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "phi3:medium-128k",
+    "size": 7.354773076251149,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "llama3.2-vision:latest",
+    "size": 7.359152116812766,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "deepseek-v2:latest",
+    "size": 8.29354322515428,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "deepseek-coder-v2:latest",
+    "size": 8.293544434010983,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "granite-code:20b",
+    "size": 10.75909571442753,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "codestral:latest",
+    "size": 11.70595180336386,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "phind-codellama:34b-v2-q2_K",
+    "size": 13.234729550778866,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "charaf/dolphin-2.9.2-qwen2-7b-f16:latest",
+    "size": 14.191355007700622,
+    "size_category": "medium",
+    "is_embedding": false
+  },
+  {
+    "name": "dolphin-mixtral:latest",
+    "size": 24.6256185695529,
+    "size_category": "large",
+    "is_embedding": false
+  },
+  {
+    "name": "qwen2-math:72b",
+    "size": 38.400057467631996,
+    "size_category": "large",
+    "is_embedding": false
+  },
+  {
+    "name": "nemotron:latest",
+    "size": 39.60022011119872,
+    "size_category": "large",
+    "is_embedding": false
+  },
+  {
+    "name": "mistral-large:latest",
+    "size": 64.33599638007581,
+    "size_category": "large",
+    "is_embedding": false
+  }
+]

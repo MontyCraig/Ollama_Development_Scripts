@@ -1,6 +1,0 @@
-pre_prompt_path: "/Volumes/One Touch/Ollama Chatbot #1/prompts/pre_prompts/test_prompt_5_pre_prompt.txt"
-post_prompt_path: "/Volumes/One Touch/Ollama Chatbot #1/prompts/post_prompts/test_prompt_5_post_prompt.txt"
-default_model: "qwen2_7b"
-input_csv_path: "/Volumes/One Touch/Ollama Chatbot #1/prompts/task_lists/test_prompt_5_task_list.csv"
-output_csv_path: "/Volumes/One Touch/Ollama Chatbot #1/prompts/task_lists/output.csv"
-output_base_path: "/Volumes/One Touch/Ollama Chatbot #1/chatbot_outputs/model_tests"
