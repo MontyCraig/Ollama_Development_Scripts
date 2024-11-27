@@ -1,0 +1,38 @@
+[
+    {
+        "NAME": "aerok/acge_text_embedding:latest",
+        "ID": "aad6bf81d2ce",
+        "SIZE": "653 MB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "yuki_ho/bce-embedding:fp16",
+        "ID": "9e9715cd64d6",
+        "SIZE": "562 MB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "mxbai-embed-large:335m",
+        "ID": "468836162de7",
+        "SIZE": "669 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "snowflake-arctic-embed:335m",
+        "ID": "21ab8b9b0545",
+        "SIZE": "669 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "mxbai-embed-large:latest",
+        "ID": "468836162de7",
+        "SIZE": "669 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "nomic-embed-text:latest",
+        "ID": "0a109f422b47",
+        "SIZE": "274 MB",
+        "MODIFIED": "6 months ago"
+    }
+]

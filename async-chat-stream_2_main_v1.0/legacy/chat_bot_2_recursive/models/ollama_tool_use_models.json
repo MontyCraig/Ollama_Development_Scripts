@@ -1,0 +1,182 @@
+[
+    {
+        "NAME": "thirdeyeai/qwen2.5-coder-uncensored-7b:latest",
+        "ID": "3f0881d9451b",
+        "SIZE": "15 GB",
+        "MODIFIED": "3 days ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:3b",
+        "ID": "e7149271c296",
+        "SIZE": "1.9 GB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:0.5b",
+        "ID": "d392ed348d5b",
+        "SIZE": "531 MB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "opencoder:latest",
+        "ID": "c320df6c224d",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "opencoder:1.5b",
+        "ID": "a01a892d01bd",
+        "SIZE": "1.4 GB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:1.5b",
+        "ID": "7088ac567b1e",
+        "SIZE": "986 MB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:7b",
+        "ID": "4a26c19c376e",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:latest",
+        "ID": "87098ba7390d",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "yi-coder:latest",
+        "ID": "0eed9e7baf59",
+        "SIZE": "5.0 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "codegeex4:latest",
+        "ID": "867b8e81d038",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "codegeex4:9b",
+        "ID": "867b8e81d038",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "deepseek-coder-v2:latest",
+        "ID": "6d3369b54a0e",
+        "SIZE": "8.9 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "codeqwen:7b-code-v1.5-q8_0",
+        "ID": "f076b41b0d2e",
+        "SIZE": "7.7 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "phind-codellama:34b-v2-q2_K",
+        "ID": "b8f09c086e17",
+        "SIZE": "14 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "wojtek/magicoder:6.7b-s-ds-q8_0",
+        "ID": "c13e31cdd4ec",
+        "SIZE": "7.2 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "codeqwen:7b-code-v1.5-q5_1",
+        "ID": "f9f1cdb01bda",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "codellama:7b-code-q4_K_M",
+        "ID": "a4350f4d99d9",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "granite-code:3b",
+        "ID": "9e9883ba2cd4",
+        "SIZE": "2.0 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "stable-code:3b-code-q4_0",
+        "ID": "e6b8d206c668",
+        "SIZE": "1.6 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "granite-code:20b",
+        "ID": "31d8bc61e506",
+        "SIZE": "11 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "codestral:latest",
+        "ID": "fcc0019dcee9",
+        "SIZE": "12 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "starcoder2:latest",
+        "ID": "f67ae0f64584",
+        "SIZE": "1.7 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "dolphincoder:latest",
+        "ID": "677555f1f316",
+        "SIZE": "4.2 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "codeqwen:latest",
+        "ID": "a6f7662764bd",
+        "SIZE": "4.2 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "starcoder:7b",
+        "ID": "53fdbc3a2006",
+        "SIZE": "4.3 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "starcoder:1b",
+        "ID": "77e6c46054d9",
+        "SIZE": "726 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "starcoder:3b",
+        "ID": "847e5a7aa26f",
+        "SIZE": "1.8 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "codegemma:2b",
+        "ID": "757806401a36",
+        "SIZE": "1.6 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "codegemma:7b",
+        "ID": "0c96700aaada",
+        "SIZE": "5.0 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "codellama:latest",
+        "ID": "8fdf8f752f6e",
+        "SIZE": "3.8 GB",
+        "MODIFIED": "6 months ago"
+    }
+]

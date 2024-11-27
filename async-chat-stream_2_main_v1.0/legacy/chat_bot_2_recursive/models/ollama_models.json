@@ -1,0 +1,698 @@
+[
+    {
+        "NAME": "marco-o1:latest",
+        "ID": "007603b83a96",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "2 days ago"
+    },
+    {
+        "NAME": "thirdeyeai/qwen2.5-coder-uncensored-7b:latest",
+        "ID": "3f0881d9451b",
+        "SIZE": "15 GB",
+        "MODIFIED": "3 days ago"
+    },
+    {
+        "NAME": "Supa-AI/ministral-8b-instruct-2410:q3_k_l",
+        "ID": "1d551a0104f1",
+        "SIZE": "4.3 GB",
+        "MODIFIED": "3 days ago"
+    },
+    {
+        "NAME": "tulu3:latest",
+        "ID": "3e7bbda0122e",
+        "SIZE": "4.9 GB",
+        "MODIFIED": "4 days ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:3b",
+        "ID": "e7149271c296",
+        "SIZE": "1.9 GB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:0.5b",
+        "ID": "d392ed348d5b",
+        "SIZE": "531 MB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "opencoder:latest",
+        "ID": "c320df6c224d",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "opencoder:1.5b",
+        "ID": "a01a892d01bd",
+        "SIZE": "1.4 GB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "llama3.2-vision:latest",
+        "ID": "38107a0cd119",
+        "SIZE": "7.9 GB",
+        "MODIFIED": "2 weeks ago"
+    },
+    {
+        "NAME": "granite3-guardian:8b",
+        "ID": "de8070afbfa2",
+        "SIZE": "5.8 GB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "granite3-guardian:latest",
+        "ID": "c3566cb68416",
+        "SIZE": "2.7 GB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:1.5b",
+        "ID": "7088ac567b1e",
+        "SIZE": "986 MB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:7b",
+        "ID": "4a26c19c376e",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "aya-expanse:latest",
+        "ID": "65f986688a01",
+        "SIZE": "5.1 GB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "smollm2:135m",
+        "ID": "79d4ee4bc397",
+        "SIZE": "270 MB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "smollm2:360m",
+        "ID": "2916c50d605d",
+        "SIZE": "725 MB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "smollm2:latest",
+        "ID": "cef4a1e09247",
+        "SIZE": "1.8 GB",
+        "MODIFIED": "3 weeks ago"
+    },
+    {
+        "NAME": "granite3-moe:1b",
+        "ID": "881c120886f6",
+        "SIZE": "821 MB",
+        "MODIFIED": "4 weeks ago"
+    },
+    {
+        "NAME": "granite3-moe:latest",
+        "ID": "5d8ebcfcdb80",
+        "SIZE": "2.1 GB",
+        "MODIFIED": "4 weeks ago"
+    },
+    {
+        "NAME": "granite3-dense:8b",
+        "ID": "b5e91128f3ef",
+        "SIZE": "4.9 GB",
+        "MODIFIED": "4 weeks ago"
+    },
+    {
+        "NAME": "granite3-dense:latest",
+        "ID": "a9c7deef7ab8",
+        "SIZE": "1.6 GB",
+        "MODIFIED": "4 weeks ago"
+    },
+    {
+        "NAME": "nemotron:latest",
+        "ID": "2262f047a28a",
+        "SIZE": "42 GB",
+        "MODIFIED": "5 weeks ago"
+    },
+    {
+        "NAME": "nemotron-mini:latest",
+        "ID": "ed76ab18784f",
+        "SIZE": "2.7 GB",
+        "MODIFIED": "6 weeks ago"
+    },
+    {
+        "NAME": "aerok/acge_text_embedding:latest",
+        "ID": "aad6bf81d2ce",
+        "SIZE": "653 MB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "yuki_ho/bce-embedding:fp16",
+        "ID": "9e9715cd64d6",
+        "SIZE": "562 MB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "llama3.2:1b",
+        "ID": "baf6a787fdff",
+        "SIZE": "1.3 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "llama3.2:3b",
+        "ID": "a80c4f17acd5",
+        "SIZE": "2.0 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "qwen2.5:latest",
+        "ID": "845dbda0ea48",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "qwen2.5-coder:latest",
+        "ID": "87098ba7390d",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "jmorgan/bespoke-minicheck:latest",
+        "ID": "327db8ce8949",
+        "SIZE": "4.5 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "bespoke-minicheck:latest",
+        "ID": "66607904c165",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "reader-lm:latest",
+        "ID": "33da2b9e0afe",
+        "SIZE": "934 MB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "minicpm-v:latest",
+        "ID": "1862d7d5fee5",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "yi-coder:latest",
+        "ID": "0eed9e7baf59",
+        "SIZE": "5.0 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "qwen2-math:72b",
+        "ID": "9cf426342464",
+        "SIZE": "41 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "qwen2-math:1.5b",
+        "ID": "a4fdda0c6cc5",
+        "SIZE": "934 MB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "qwen2-math:latest",
+        "ID": "28cc3a337734",
+        "SIZE": "4.4 GB",
+        "MODIFIED": "2 months ago"
+    },
+    {
+        "NAME": "hermes3:latest",
+        "ID": "b5c6c7cb379d",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "phi3.5:latest",
+        "ID": "3b387c8dd9b7",
+        "SIZE": "2.2 GB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "smollm:1.7b",
+        "ID": "762cd970428d",
+        "SIZE": "990 MB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "smollm:360m",
+        "ID": "00d7aeb8c943",
+        "SIZE": "229 MB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "smollm:135m",
+        "ID": "8e3a92041f76",
+        "SIZE": "91 MB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "phi3:medium-128k",
+        "ID": "cf611a26b048",
+        "SIZE": "7.9 GB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "nuextract:latest",
+        "ID": "233ce1dee972",
+        "SIZE": "2.2 GB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "paraphrase-multilingual:latest",
+        "ID": "ba13c2e06707",
+        "SIZE": "562 MB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "bge-large:latest",
+        "ID": "b3d71c928059",
+        "SIZE": "670 MB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "bge-m3:latest",
+        "ID": "790764642607",
+        "SIZE": "1.2 GB",
+        "MODIFIED": "3 months ago"
+    },
+    {
+        "NAME": "mistral-large:latest",
+        "ID": "0ca7dfa0bf06",
+        "SIZE": "69 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "llama3.1:latest",
+        "ID": "a23da2a80395",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "mistral-nemo:latest",
+        "ID": "4b300b8c6a97",
+        "SIZE": "7.1 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "llama3-groq-tool-use:latest",
+        "ID": "55065f5d86c6",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "mathstral:latest",
+        "ID": "4ee7052be55a",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "mistrallite:latest",
+        "ID": "5393d4f5f262",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "mapler/lite-mistral-150m-instruct:latest",
+        "ID": "6a23de8ec2c6",
+        "SIZE": "167 MB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "yi:latest",
+        "ID": "a7f031bb846f",
+        "SIZE": "3.5 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "everythinglm:latest",
+        "ID": "b005372bc34b",
+        "SIZE": "7.4 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "goktugkoksal/gwen2_05:latest",
+        "ID": "231c1fbb3394",
+        "SIZE": "4.4 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "codegeex4:latest",
+        "ID": "867b8e81d038",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "internlm2:latest",
+        "ID": "5050e36678ab",
+        "SIZE": "4.5 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "glm4:latest",
+        "ID": "5b699761eca5",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "codegeex4:9b",
+        "ID": "867b8e81d038",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "4 months ago"
+    },
+    {
+        "NAME": "gemma2:latest",
+        "ID": "f67334982954",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "mannix/nous-hermes2-solar-10.7b:iq2_s",
+        "ID": "22395634cf0b",
+        "SIZE": "3.4 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "deepseek-coder-v2:latest",
+        "ID": "6d3369b54a0e",
+        "SIZE": "8.9 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "codeqwen:7b-code-v1.5-q8_0",
+        "ID": "f076b41b0d2e",
+        "SIZE": "7.7 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "llama3:8b-instruct-q6_K",
+        "ID": "e4a3943fcd76",
+        "SIZE": "6.6 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "phind-codellama:34b-v2-q2_K",
+        "ID": "b8f09c086e17",
+        "SIZE": "14 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "wojtek/magicoder:6.7b-s-ds-q8_0",
+        "ID": "c13e31cdd4ec",
+        "SIZE": "7.2 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "codeqwen:7b-code-v1.5-q5_1",
+        "ID": "f9f1cdb01bda",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "codellama:7b-code-q4_K_M",
+        "ID": "a4350f4d99d9",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "charaf/dolphin-2.9.2-qwen2-7b-f16:latest",
+        "ID": "5f0c721a73aa",
+        "SIZE": "15 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "qwen2:7b",
+        "ID": "e0d4e1163c58",
+        "SIZE": "4.4 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "qwen2:1.5b",
+        "ID": "f6daf2b25194",
+        "SIZE": "934 MB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "qwen2:0.5b",
+        "ID": "6f48b936a09f",
+        "SIZE": "352 MB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "deepseek-v2:latest",
+        "ID": "35a3613ab60c",
+        "SIZE": "8.9 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "granite-code:3b",
+        "ID": "9e9883ba2cd4",
+        "SIZE": "2.0 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "stable-code:3b-code-q4_0",
+        "ID": "e6b8d206c668",
+        "SIZE": "1.6 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "falcon2:latest",
+        "ID": "d8c09dbc67c3",
+        "SIZE": "6.4 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "granite-code:20b",
+        "ID": "31d8bc61e506",
+        "SIZE": "11 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "codestral:latest",
+        "ID": "fcc0019dcee9",
+        "SIZE": "12 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "phi3:medium",
+        "ID": "1e67dff39209",
+        "SIZE": "7.9 GB",
+        "MODIFIED": "5 months ago"
+    },
+    {
+        "NAME": "starcoder2:latest",
+        "ID": "f67ae0f64584",
+        "SIZE": "1.7 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "dolphincoder:latest",
+        "ID": "677555f1f316",
+        "SIZE": "4.2 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "mxbai-embed-large:335m",
+        "ID": "468836162de7",
+        "SIZE": "669 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "snowflake-arctic-embed:335m",
+        "ID": "21ab8b9b0545",
+        "SIZE": "669 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "codeqwen:latest",
+        "ID": "a6f7662764bd",
+        "SIZE": "4.2 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "moondream:latest",
+        "ID": "55fc3abd3867",
+        "SIZE": "1.7 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "llava-llama3:latest",
+        "ID": "44c161b1f465",
+        "SIZE": "5.5 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "llama3-gradient:latest",
+        "ID": "5d1398df5b8b",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "llava-phi3:latest",
+        "ID": "c7edd7b87593",
+        "SIZE": "2.9 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "starcoder:7b",
+        "ID": "53fdbc3a2006",
+        "SIZE": "4.3 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "openchat:latest",
+        "ID": "537a4e03b649",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "tinydolphin:latest",
+        "ID": "0f9dd11f824c",
+        "SIZE": "636 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "mxbai-embed-large:latest",
+        "ID": "468836162de7",
+        "SIZE": "669 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "starcoder:1b",
+        "ID": "77e6c46054d9",
+        "SIZE": "726 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "starcoder:3b",
+        "ID": "847e5a7aa26f",
+        "SIZE": "1.8 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "wizard-vicuna-uncensored:latest",
+        "ID": "72fc3c2b99dc",
+        "SIZE": "3.8 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "dolphin-mistral:latest",
+        "ID": "5dc8c5a2be65",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "orca-mini:latest",
+        "ID": "2dbd9f439647",
+        "SIZE": "2.0 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "nomic-embed-text:latest",
+        "ID": "0a109f422b47",
+        "SIZE": "274 MB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "mistral-openorca:latest",
+        "ID": "12dc6acc14d0",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "llama2-uncensored:latest",
+        "ID": "44040b922233",
+        "SIZE": "3.8 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "codegemma:2b",
+        "ID": "757806401a36",
+        "SIZE": "1.6 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "gemma:2b",
+        "ID": "b50d6c999e59",
+        "SIZE": "1.7 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "aya:8b",
+        "ID": "7ef8c4942023",
+        "SIZE": "4.8 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "qwen:latest",
+        "ID": "d53d04290064",
+        "SIZE": "2.3 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "llava:latest",
+        "ID": "8dd30f6b0cb1",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "codegemma:7b",
+        "ID": "0c96700aaada",
+        "SIZE": "5.0 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "dolphin-mixtral:latest",
+        "ID": "cfada4ba31c7",
+        "SIZE": "26 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "wizardlm2:latest",
+        "ID": "c9b1aff820f2",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "mistral:latest",
+        "ID": "61e88e884507",
+        "SIZE": "4.1 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "llama3-chatqa:latest",
+        "ID": "b37a98d204b2",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "dolphin-phi:latest",
+        "ID": "c5761fc77240",
+        "SIZE": "1.6 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "dolphin-llama3:latest",
+        "ID": "613f068e29f8",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "codellama:latest",
+        "ID": "8fdf8f752f6e",
+        "SIZE": "3.8 GB",
+        "MODIFIED": "6 months ago"
+    },
+    {
+        "NAME": "llama3:latest",
+        "ID": "365c0bd3c000",
+        "SIZE": "4.7 GB",
+        "MODIFIED": "6 months ago"
+    }
+]
