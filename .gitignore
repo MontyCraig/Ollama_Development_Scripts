@@ -29,8 +29,9 @@ json_output/
 json_outputs/
 model_tests/
 output/
-task_lists/
-!task_lists/.gitkeep
+# Dynamic task lists
+**/task_lists/*
+!**/task_lists/.gitkeep
 reports/
 !reports/.gitkeep
 
@@ -40,13 +41,8 @@ ollama-python/
 # Generated files and folders
 **/output_folders/
 last_completed_task.json
-ollama_available_models.csv
-ollama_models_list.txt
-ollama_models_list.json
-ollama_models_details.json
-ollama_embeddings_models.json
-ollama_tool_use_models.json
-ollama_vision_models.json
+!ollama_models/*.json
+!ollama_models/*.csv
 
 # Python specific
 __pycache__/
@@ -79,3 +75,22 @@ chat_bot.log
 
 # Keep empty directories
 !.gitkeep
+
+# Dynamic directories
+**/task_lists/*      # Task lists generated during runs
+**/output_folders/*  # Generated output folders
+**/model_tests/*     # Model testing outputs
+**/reports/*         # Generated reports
+
+# Keep directory structures
+!**/task_lists/.gitkeep
+!**/output_folders/.gitkeep
+!**/model_tests/.gitkeep
+!**/reports/.gitkeep
+
+# Test files (temporary - keep for now)
+!**/chats/**
+!**/conversations/**
+!**/convos/**
+!**/json_output/**
+!**/json_outputs/**
