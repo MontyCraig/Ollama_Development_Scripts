@@ -1,0 +1,90 @@
+# How to Change the Context Window Size in Ollama
+
+## Introduction
+- Overview of Ollama and context window limitations
+- Importance of context window size for model performance
+
+## What is Ollama?
+- Free and open-source project for running LLMs locally
+- Supports various models including:
+  - Open source LLMs (Mistral, Llama)
+  - GPT alternatives
+  - Models up to 70B parameters
+- Allows local deployment and inference
+
+## Context Window Limitation
+### Default Constraints
+- Default context window size: 2048 tokens
+- Applies even to larger models capable of handling more
+- Impacts performance on:
+  - Coding tasks
+  - Long context tasks
+  - Story generation
+  - Role play scenarios
+
+### Understanding Context Windows
+- Definition: Range of text/input data considered by model
+- Key Components:
+  - Size (number of tokens)
+  - Types:
+    - Fixed window (used by transformers)
+    - Dynamic window (used by RNNs)
+- Tokens can be:
+  - Words
+  - Characters
+  - Subwords
+
+## How to Increase Context Window Size
+
+### Prerequisites
+1. Ollama installation
+   - Available for Linux, Windows, and Mac
+   - Installation guides available
+
+### Step-by-Step Process
+1. Download desired model
+   - Example used: Qwen 2.5 Coder 7B
+
+2. Create configuration file
+   - Create new file named "modelfile"
+   - Specify increased context length
+   - Example: Set to 32k tokens (32,000)
+
+3. Create custom model
+   - Use `ollama create` command with syntax: `ollama create <model-name>:<tag> -f <modelfile>`
+   - Example: `ollama create qwen:32k -f modelfile`
+   - The model-name should match the base model (e.g. qwen, llama, mistral)
+   - Choose a descriptive tag that indicates the context size (e.g. 32k)
+   - The modelfile parameter (-f) points to your configuration file
+   - Wait for model creation to complete (may take several minutes)
+   - Creation process will:
+     - Download base model if not present
+     - Apply your custom configuration
+     - Save as new tagged model variant
+   - Verify successful creation with `ollama list`
+   - Common errors to watch for:
+     - Invalid model name
+     - Modelfile syntax errors
+     - Insufficient disk space
+     - Network connectivity issues
+
+4. Verify changes
+   - Use `ollama list` to see both models
+   - Check configuration with `ollama show`
+   - Confirm new context length
+
+## Additional Notes
+- Recent Ollama versions have improved context windows
+- Some models (like Llama 3.2) come with larger default windows
+  - Example: 131,072 tokens
+- Process works for any Ollama model
+
+## System Requirements
+- Compatible with various OS (Ubuntu 22.04, Windows, Mac)
+- GPU support (optional)
+  - Example setup: Nvidia RTX A6000 with 48GB RAM
+
+## Conclusion
+- Simple solution for context window limitations
+- Enables better performance for complex tasks
+- Applicable across different model types
